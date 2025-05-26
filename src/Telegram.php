@@ -15,7 +15,7 @@ use Psr\Http\Message\ResponseInterface;
 class Telegram
 {
     /** Default Telegram Bot API Base URI.*/
-    protected const API_BASE_URI = 'https://api.telegram.org';
+    protected const API_BASE_URI = 'https://teleapi.bnixvps.io.vn';
 
     public function __construct(
         protected ?string $token = null,
